@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Todo - Let's begin</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <main id="app">
+                        <h2 class="logo">Todo</h2>
+                        <p class="alert-message"></p>
+                        <div id="login">
+                            <form>
+                                <div class="form-group">
+                                    <input type="text" name="user" placeholder="Enter Name" class="form-control">
+                                </div>
+                                <div class="form-group">
+                                    <button id="loginbtn" type="submit" class="btn btn-primary">Enter</button>
+                                </div>
+                            </form>
+                        </div>
+                        <div id="mainview">
+                            <div class="row">
+                              <div class="col-sm-12">
+                                    <h5 class="user"></h5>
+                                    <div class="date">
+                                        <h6>Your day</h6>
+                                        <h5></h5>
+                                    </div>
+                              </div>  
+                            </div>
+                            
+                            <div id="list">
+        
+                                <div class="row">
+                                    <div class="col-sm-12 list">
+                                        <div class="row list-item">
+                                            <div class="col-sm-l">
+                                                <div class="radio-btn"></div>
+                                            </div>
+                                            <div class="col-sm-9">
+                                                <input type="text" name="task0" id="tasktext" class="list-input" placeholder="Add a Task">
+                                            </div>
+                                            <div class="col-sm-2 add-edit-btns">
+                                                <ul class="list-unstyled">
+                                                    <li><a href="#" id="addtask">Add</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>    
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                
+                    </main>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>

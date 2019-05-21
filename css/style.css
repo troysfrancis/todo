@@ -1,0 +1,163 @@
+/* Created by: Troy Francis
+ * Date: 05/04/19
+ */
+
+
+
+/*
+
+=======================
+GLOBAL STYLES
+=======================
+*/
+.wrapper{
+    max-width: 800px;
+    min-height: 500px;
+    margin:100px auto;
+    text-align: center;
+    padding:50px 40px 0px 40px ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif!important;
+    
+}
+
+#loginbtn{
+    opacity: 0;
+}
+
+#mainview{
+    display: none;
+    opacity: 0;
+}
+
+input[type=text]{
+    
+    border-top:none!important;
+    border-left: none!important;
+    border-right: none!important;
+    box-shadow: none!important;
+    border-bottom-right-radius: 0%!important;
+    border-bottom-left-radius: 0%!important;
+    width:50%;
+    margin: 0 auto;
+}
+
+input[type='text']:focus{
+    outline-style:none!important;
+    border-bottom-color: blue;
+    background:transparent;
+    
+}
+
+/* ### Global End ### */
+
+
+
+/*
+===========================
+MAINVIEW PANE STYLES
+===========================
+*/
+
+.user,.date{
+    opacity: 0.3;
+}
+.user{
+    margin-top:30px;
+}
+
+.date{
+    margin:50px 0 50px 0;
+}
+.date, #list{
+    text-align: left!important;
+}
+
+
+.list-item{
+    border-bottom: 1px lightgray solid!important;
+    margin-bottom:25px;
+}
+
+
+.add-edit-btns ul li{
+    display: inline!important;
+    margin-left: 10px;
+}
+
+.add-edit-btns .fa-trash-alt{
+    font-size:11px!important;
+    color:lightgray;
+    opacity: .8;
+}
+
+.add-edit-btns .fa-trash-alt:hover{
+    color:red;
+    opacity: 1;
+}
+
+.save-btn{
+    visibility: hidden;
+}
+
+#addtask{
+    position:relative;
+    left:40px;
+}
+
+
+.list-input{
+    margin-bottom:10px;
+    width:100%!important;
+    border:none;
+}
+
+.list-input-w-value{
+    margin-left: -40px!important;
+}
+
+.alert-message{
+    opacity: 0;
+    margin-top: 20px;
+    margin-bottom:0!important;
+    height: 24px!important;
+}
+
+.text-success, .text-danger{
+    padding:0px!important;
+    margin-bottom: 0px!important;
+}
+
+
+
+
+.radio-btn{
+    
+    position: relative;
+    top:5px!important;
+    height: 15px!important;
+    width: 15px!important;
+    background: transparent!important;
+    border: 1px lightgray solid;
+    border-radius: 100% !important;
+    margin-right:5px;
+    cursor: pointer;
+    
+}
+
+.no-margin{
+    margin: 0px!important;
+    padding:0px!important;
+    
+}
+
+
+.complete{
+    text-decoration: line-through;
+}
+
+.tick{
+    background-color: lightblue!important;
+}
+
+/* #### MainView End #### */
+
